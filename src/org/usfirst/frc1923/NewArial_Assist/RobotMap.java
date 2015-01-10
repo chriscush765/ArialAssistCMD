@@ -57,7 +57,7 @@ public class RobotMap {
     // SmartDashboard Interface
     public static SmartDashboardInterface sfxDashboard = new SmartDashboardInterface(table,true);
     
-    /* Motor Group Init */
+    /* Motor Group Init. */
     public static final MotorGroup driveLeftSide = new MotorGroup(frontLeftDrive, rearLeftDrive);
     public static final MotorGroup driveRightSide = new MotorGroup(frontRightDrive, rearRightDrive);
     
